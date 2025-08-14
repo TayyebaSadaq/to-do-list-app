@@ -1,5 +1,10 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const checkbox = li.querySelector("input");
+const editButton = li.querySelector(".edit-button");
+const taskSpan = li.querySelector("span");
+const deleteButton = li.querySelector(".delete-button");
+
 
 function addTask(){
     const task = inputBox.value.trim();
